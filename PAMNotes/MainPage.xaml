@@ -9,8 +9,12 @@
         <Editor Placeholder="Digite aqui sua anotação" 
                 HeightRequest="300"
                 x:Name="NoteEditor"/>
+        
+        
         <Label 
             x:Name="TextLabel"/>
+
+        
 
         <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
             <Button Text="Salvar" WidthRequest="150" x:Name="SaveButton" Clicked="SaveButton_Clicked" />
